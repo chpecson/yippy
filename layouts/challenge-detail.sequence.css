@@ -1,0 +1,36 @@
+/* ===========================================================
+ * Sequence styles
+ * ===========================================================*/
+.sequence__item {
+    border: 2px solid var(--dark-color);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 12px 14px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+.sequence__item--active {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+.sequence__item:last-child {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+
+.sequence__item:after {
+    background-color: var(--dark-color);
+    content: '';
+    display: block;
+    position: relative;
+    left: 175%;
+    bottom: 0.6rem;
+    height: 2px;
+    width: 21px;
+}
+.sequence__item--active:after { background-color: var(--primary-color); }
+.sequence__item:last-child:after { display: none; }

@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #dd5858;
+    --secondary-color: #404042;
+    --tertiary-color: #fbfbfb;
+    --light-color: #fff;
+    --dark-color: #030303;
+
+    --border-color: #f3f3f3;
+    --shadow-color: #f3f3f3;
+}
+
+body {
+    background-color: var(--light-color);
+    color: var(--secondary-color);
+    font-family: 'Segoe UI tertiary', sans-serif;
+    font-weight: 300;
+}
+
+.masthead { 
+    color: var(--primary-color);
+    padding: 1rem 0;
+    text-align: center; 
+}
+.masthead .masthead__back {
+    color: inherit;
+    left: 1rem;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    position: absolute;
+    text-decoration: none;
+}
+.masthead .masthead__title { display: inline-block; }
+.mastcontent { font-family: "Segoe UI", sans-serif; }

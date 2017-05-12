@@ -1,0 +1,33 @@
+/*===========================================================
+ * Tip component styles
+ * ==========================================================*/
+
+.tip {
+    background-color: var(--tertiary-color);
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    border-radius: 1rem;
+    padding: .8rem 1rem;
+}
+.tip__header {
+    color: var(--primary-color);
+    font-size: .8rem;
+}
+.tip__header__time:after {
+    display: inline-block;
+    content: '|';
+    margin-left: .4rem;
+}
+.tip__header__time,
+.tip__header__repitition { display: inline-block; }
+
+.tip__content {
+    color: var(--dark-color);
+    font-size: 130%;
+}
+.tip__content__edit {
+    font-size: 1rem;
+    position: absolute;
+    right: 12vw;
+    top: 18vh;
+}

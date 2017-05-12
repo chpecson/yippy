@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Challenge detail</title>
+
+    <link rel="stylesheet" href="../assets/css/yipp.css">
+
+    <!-- Start: Challenge detail styles -->
+    <!-- The styles are modularized from each other for better maintainability -->
+    <link rel="stylesheet" href="challenge-detail.main.css">
+    <link rel="stylesheet" href="challenge-detail.container.css">
+    <link rel="stylesheet" href="challenge-detail.placeholder.css">
+    <link rel="stylesheet" href="challenge-detail.sequence.css">
+    <link rel="stylesheet" href="challenge-detail.tip.css">
+    <link rel="stylesheet" href="challenge-detail.evaluation.css">
+    <!-- End: Challenge detail styles -->
+    
+</head>
+<body>
+    <header class="masthead">
+        <a class="masthead__back" href="#"><</a>
+        <h1 class="masthead__title">Challenge Detail</h1>
+    </header>
+
+    <main class="mastcontent">
+        <section class="tip-container">
+            <section class="tip">
+                <section class="tip__header">
+                <h2 class="tip__header__time">14:00</h2>
+                <h2 class="tip__header__repitition">Everyday</h2>
+                </section>
+                <section class="tip__content">
+                    <h3>Eating more vegetables</h3>
+                    <h4>1. Brocolli</h4>
+
+                    <a class="tip__content__edit">Edit</a>
+                </section>
+            </section>
+        </section>
+
+        <section class="sequence-container">
+            <ul class="sequence">
+                <li class="sequence__item sequence__item--active">1</li>
+                <li class="sequence__item">2</li>
+                <li class="sequence__item">3</li>
+                <li class="sequence__item">4</li>
+                <li class="sequence__item">5</li>
+            </ul>
+        </section>
+
+        <section class="image-container">
+            <section class="placeholder"></section>
+        </section>
+
+        <section class="evaluation-container">
+            <section class="evaluation">
+                <section class="evaluation__header">
+                    <h2 class="evaluation__header__title">Evaluation</h2>
+                    <section class="evaluation__header__content">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae dignissimos, hic. Animi deleniti voluptatem exercitationem nisi dicta, eligendi id nesciunt!
+                        </p>
+                    </section>
+                </section>
+                <section class="evaluation__content">
+                    <section class="evaluation__content__smileys">
+                        <section class="evaluation__content__smileys__item">
+                            <i class="icon-yipp_emoticon_sad"></i>
+                        </section>
+                        <section class="evaluation__content__smileys__item">
+                            <i class="icon-yipp_emoticon_neutral">  </i>
+                        </section>
+                        <section class="evaluation__content__smileys__item">
+                            <i class="icon-yipp_emoticon_happy"></i>
+                        </section>
+                    </section>
+                    <section class="evaluation__content__notes">
+                        <h3 class="evaluation__content__notes__title">Notes</h3>
+                        <input class="evaluation__content__notes__textbox" type="text">
+                        <input class="evaluation__content__notes__button" type="submit" value="Done">
+                    </section>
+                </section>
+            </section>
+        </section>
+    </main>
+</body>
+</html>

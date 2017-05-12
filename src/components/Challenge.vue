@@ -34,7 +34,7 @@
 					</span>
 					<p>Lorem Ipsum</p>
 					
-					<router-link :to="{ path: 'challenge-1'}">
+					<router-link :to="{ path: 'challenge-detail'}">
 					<i class="arrow icon-yipp_forward"></i>
 					</router-link>
 					
@@ -48,7 +48,7 @@
 					</span>
 					<p>Lorem Ipsum</p>
 					
-					<router-link :to="{ path: 'challenge-2'}">
+					<router-link :to="{ path: 'challenge-detail'}">
 						<i class="arrow icon-yipp_forward"></i>
 					</router-link>
 				</li>

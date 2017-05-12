@@ -1,0 +1,16 @@
+/*===========================================================
+ * Container styles
+ *=========================================================*/
+ .tip-container {
+    background-color: var(--primary-color);
+    padding: 1rem 2rem;
+}
+ .sequence-container {
+    padding: 1rem;
+    width: 80%;
+}
+.image-container,
+.evaluation-container {
+    margin: 0 auto; 
+    width: 90%;
+}

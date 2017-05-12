@@ -35,6 +35,7 @@ const routes = [
   { path: '/emergency', component: Emergency, name: 'emergency' },
   { path: '/lesson-:id', component: Lesson, name: 'lesson' },
   { path: '/challenge', component: Challenge, name: 'challenge' },
+  { path: '/challenge-detail', component: ChallengeDetails, name: 'challenge_detail' },
   { path: '/challenge-new', component: ChallengeNew, name: 'challenge_new' },
   { path: '/cheatsheet-:id', component: Cheatsheet, name: 'cheatsheet' },
   { path: '/feedback-:id', component: ChallengeDetails, name: 'feedback' },
